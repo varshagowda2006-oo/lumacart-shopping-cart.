@@ -49,11 +49,7 @@ export default function Home() {
             </div>
             <div className="order-1 lg:order-2 relative animate-fade-in delay-200">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-stone-300/40 aspect-[4/3] lg:aspect-[5/4]">
-                <img
-                  src="https://images.pexels.com/photos/3865904/pexels-photo-3865904.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                  alt="Lifestyle shopping"
-                  className="w-full h-full object-cover"
-                />
+                
               </div>
               <div className="absolute -bottom-4 -left-4 hidden sm:flex items-center gap-3 bg-white rounded-2xl shadow-lg px-5 py-3.5 border border-stone-100">
                 <div className="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center">
