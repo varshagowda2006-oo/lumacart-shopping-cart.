@@ -47,20 +47,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="order-1 lg:order-2 relative animate-fade-in delay-200">
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-stone-300/40 aspect-[4/3] lg:aspect-[5/4]">
-                
-              </div>
-              <div className="absolute -bottom-4 -left-4 hidden sm:flex items-center gap-3 bg-white rounded-2xl shadow-lg px-5 py-3.5 border border-stone-100">
-                <div className="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center">
-                  <Sparkles size={18} className="text-emerald-600" />
-                </div>
-                <div>
-                  <p className="text-sm font-semibold text-stone-900">New arrivals</p>
-                  <p className="text-xs text-stone-400">Weekly drops</p>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
