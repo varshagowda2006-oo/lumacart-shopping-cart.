@@ -19,7 +19,7 @@ export default function Home() {
       {/* Hero */}
       <section className="relative overflow-hidden bg-stone-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[70vh] py-12 lg:py-20">
+          <div className="flex items-center min-h-[70vh] py-12 lg:py-20">
             <div className="order-2 lg:order-1 max-w-xl">
               <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-stone-200 text-xs font-medium text-stone-600 mb-6 animate-fade-in-up">
                 <Sparkles size={13} className="text-amber-500" />
@@ -47,7 +47,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-
+            
           </div>
         </div>
       </section>
